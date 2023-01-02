@@ -1,0 +1,70 @@
+//Exercise 1
+
+programa {
+  funcao inicio() {
+    real salarioBruto, abono, salarioLiquido
+    
+    escreva("Escreva seu salario:")
+    leia(salarioBruto)
+    escreva("Escreva seu abono:")
+    leia(abono)
+    salarioLiquido = salarioBruto + abono
+    escreva("seu salario liquido sera: ",salarioLiquido)
+  }
+}
+
+//Exercise 2
+
+programa {
+  funcao inicio() {
+    real media, nota1, nota2, nota3, nota4
+
+    escreva("1a nota:")
+    leia(nota1)
+    escreva("2a nota:")
+    leia(nota2)
+    escreva("3a nota:")
+    leia(nota3)
+    escreva("4a nota:")  
+    leia(nota4)
+    media = (nota1 + nota2 + nota3 + nota4)/4
+    escreva("Sua Media: " , media)
+  }
+}
+
+//Exercise 3
+
+programa {
+  funcao inicio() {
+    real salarioLiquido, salarioBruto, adicionalNoturno, horasExtras, descontos
+
+    escreva("Escreva o salario bruto:")
+    leia(salarioBruto)
+    escreva("Escreva as adicional noturno:")
+    leia(adicionalNoturno)
+    escreva("Escreva as horas extras:")
+    leia(horasExtras)
+    escreva("Escreva os descontos:")
+    leia(descontos)
+    salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos
+    escreva("Salario Liquido: ", salarioLiquido)
+  }
+}
+
+//Exercise 4
+
+programa {
+  funcao inicio() {
+    real diferencaProduto, numero1, numero2, numero3, numero4
+    escreva("Escreva o 1o numero:")
+    leia(numero1)
+    escreva("Escreva o 2o numero:")
+    leia(numero2)
+    escreva("Escreva o 3o numero:")
+    leia(numero3)
+    escreva("Escreva o 4o numero:")
+    leia(numero4)
+    diferencaProduto =  (numero1 * numero2) - (numero3 * numero4)
+    escreva("Diferença entre os produtos: ", diferencaProduto)
+  }
+}
