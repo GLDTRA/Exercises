@@ -55,7 +55,7 @@ programa {
 
 programa {
   funcao inicio() {
-    real diferencaProduto, numero1, numero2, numero3, numero4
+    inteiro diferencaProduto, numero1, numero2, numero3, numero4
     escreva("Escreva o 1o numero:")
     leia(numero1)
     escreva("Escreva o 2o numero:")
