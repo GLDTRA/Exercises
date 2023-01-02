@@ -16,6 +16,7 @@ programa {
 //Exercise 2
 
 programa {
+  inclua biblioteca Matematica --> math 
   funcao inicio() {
     real media, nota1, nota2, nota3, nota4
 
@@ -28,6 +29,7 @@ programa {
     escreva("4a nota:")  
     leia(nota4)
     media = (nota1 + nota2 + nota3 + nota4)/4
+    media = math.arredondar(media, 1)
     escreva("Sua Media: " , media)
   }
 }
