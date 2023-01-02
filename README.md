@@ -1,1 +1,1 @@
-# aulaGit
+Exercises
