@@ -30,18 +30,8 @@ programa {
     cont2 = num2
     se (num1 < num2){
       para(cont1 = num1; cont1 <= cont2; cont1++){
-        se(cont1 % 5 == 0){
-          se(cont1 % 3 == 0)
+        se(cont1 % 5 == 0 e cont1 % 3 == 0){
             escreva(cont1, " é multiplo de 5 e 3\n")
-          senao 
-            escreva(cont1, " é multiplo de 5\n")
-        }
-        senao se(cont1 % 3 == 0){
-          se(cont1 % 5 == 0){
-            escreva(cont1, " é multiplo de 5 e 3\n")
-          senao 
-            escreva(cont1, " é multiplo de 3\n")
-          }
         }
       }
     }
