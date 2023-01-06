@@ -86,10 +86,11 @@ programa {
 programa {
   inclua biblioteca Matematica --> math
   funcao inicio() {
-    real media=0, mediaV[10], notas[10][4] = {{4, 5, 8.7, 10}, {4, 6.7, 8, 2}, {9, 8.9, 6, 9}, {8.6, 5, 6, 8}, {4, 6, 4, 10}, {5.8, 7.8, 4.6, 7}, {5, 8, 9, 6}, {5, 6.3, 7, 8}, {9, 4.5, 10, 6}, {5, 6.7, 4, 1}}
+    real media=0, mediaV[10], notas[10][4]
     inteiro i, j, cont
     para(i = 0; i < 10; i++){
       para(j = 0; j < 4; j++){
+        leia(notas[i][j])
         media += notas[i][j]
       }
       media = math.arredondar(media/4, 1)
